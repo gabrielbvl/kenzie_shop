@@ -1,0 +1,67 @@
+.container_totalPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    width: 300px;
+    height: 250px;
+    background-color: #ac5a4c;
+    border-radius: 8px;
+    color: #f7ecb6;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+h4 {
+    width: 90%;
+    text-align: left;
+}
+
+.value_qtd {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.btn1 {
+    margin: 50px 0 20px 0;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d3c8b4;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    transition: 1.5s;
+    background-color: #1ca823;
+    color: white;
+}
+
+.btn2 {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(160, 64, 26);
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    transition: 1.5s;
+    background-color: #ff0000;
+}
+
+@media screen and (max-width: 768px) {
+    .container_totalPrice {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}

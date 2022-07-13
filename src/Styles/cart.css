@@ -1,0 +1,25 @@
+.container {
+    height: 100%;
+}
+
+.general_cart {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #f5cdb0;
+}
+
+@media screen and (max-width: 768px) {
+    .general_cart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list_cart {
+        height: 45%;
+        width: 90%;
+    }
+}

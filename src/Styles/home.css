@@ -1,0 +1,10 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+.list {
+    height: 100%;
+    background-color: #f5cdb0;
+}
